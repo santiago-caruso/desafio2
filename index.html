@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="pregunta">
+        <h1>¡Hola! ¿Qué pasaje te gustaría comprar?</h1>
+        <ul>
+            <li onclick="comprar(bolivia)">Bolivia</li>
+            <li onclick="comprar(españa)">España</li>
+            <li onclick="comprar(canada)">Canadá</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Tus Pasajes</h2>
+        
+        <ul id="inventario">
+            <li></li>
+        </ul>
+        <h1 id="oro">
+            Pasajes disponibles: <span></span>
+        </h1>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
